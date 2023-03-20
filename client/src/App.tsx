@@ -1,8 +1,13 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Products } from './pages';
+
 function App() {
   return (
-    <div className="App">
-      React<div className="checkbox"></div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/products" Component={Products} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
