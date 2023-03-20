@@ -12,11 +12,19 @@
   flex-direction: column;
 }
 
+.product-info-bottom {
+  margin: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .product-info__name {
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 .product-info__price {
+  font-size: 1rem;
 }
 
 .product-detail-container {
