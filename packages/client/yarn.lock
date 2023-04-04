@@ -7642,7 +7642,7 @@ react-refresh@^0.11.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
-react-router-dom@^6.9.0:
+react-router-dom@^6.8.1, react-router-dom@^6.9.0:
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.9.0.tgz#dd8b4e461453bd4cad2e6404493d1a5b4bfea758"
   integrity sha512-/seUAPY01VAuwkGyVBPCn1OXfVbaWGGu4QN9uj0kCPcTyNYgL1ldZpxZUpRU7BLheKQI4Twtl/OW2nHRF1u26Q==
@@ -9484,3 +9484,12 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+yoonsang-payments@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/yoonsang-payments/-/yoonsang-payments-0.1.9.tgz#c46b2d1a8c1c014d334aa66edf678958c53a8f91"
+  integrity sha512-RDM1wipn6MHgVDwS9c8jeaam7lm8mbO6+OXDQbbuqpbDh/95tCsyRFnXGARt/esZPpjn1FuSPK30oDVTlmD8kg==
+  dependencies:
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    react-router-dom "^6.8.1"

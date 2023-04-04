@@ -1,18 +1,12 @@
 {
   "name": "react-shopping-cart",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:yanggak12/react-shopping-cart.git",
-  "author": "yanggak12 <yanggak12@naver.com>",
-  "license": "MIT",
+  "private": true,
   "scripts": {
-    "client:start": "cd client && yarn start",
-    "server:start": "cd server && yarn server",
-    "client:install": "cd client && yarn install",
-    "server:install": "cd server && yarn install",
-    "client:add": "cd client && yarn add",
-    "server:add": "cd server && yarn add",
-    "client:remove": "cd client && yarn remove",
-    "server:remove": "cd server && yarn remove"
-  }
+    "client": "yarn workspace client",
+    "server": "yarn workspace server"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
