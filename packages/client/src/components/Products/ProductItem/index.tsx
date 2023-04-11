@@ -1,4 +1,4 @@
-import CartIcon from '../Icons/CartIcon';
+import CartIcon from '../../Icons/CartIcon';
 
 interface ProductItemProps {
   name: string;

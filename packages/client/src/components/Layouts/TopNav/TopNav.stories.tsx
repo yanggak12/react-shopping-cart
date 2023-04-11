@@ -1,4 +1,4 @@
-import TopNav from './TopNav';
+import TopNav from '.';
 
 export default {
   title: 'Layouts/TopNav',
