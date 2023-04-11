@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { TopNav } from './components/Layouts';
-import { Products } from './pages';
+import { Detail, Products } from './pages';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <TopNav />
       <Routes>
         <Route path="/products" Component={Products} />
+        <Route path="/detail" Component={Detail} />
       </Routes>
     </BrowserRouter>
   );
